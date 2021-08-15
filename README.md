@@ -41,6 +41,6 @@ Profile based Test Automation Framework
 
 ## Result
 
-![Result.PNG](result.png)
+![Result.PNG](Result.png)
 
 

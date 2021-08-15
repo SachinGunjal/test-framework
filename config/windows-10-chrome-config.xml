@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Primary" parallel="true">
+    <test name="windows_10_chrome">
+        <!--        This can be moved to Selenium grid, config and environment can be changed accordingly -->
+        <!--        <parameter name="config" value="seleniumgrid.conf.json"/>-->
+        <!--        seleniumgrid.conf.json can be created under conf folder in resources to support Selenium Grid execution-->
+        <!--        <parameter name="environment" value="windows_10_chrome"/>-->
+        <classes>
+            <class name="com.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

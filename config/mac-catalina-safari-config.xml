@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Primary">
+    <test name="osx_catalina_safari">
+        <!--        We can add configuration with Saucelabs or Browserstack and run scripts on different devices daily in parallel-->
+        <!--        <parameter name="config" value="saucelabs.conf.json"/>-->
+        <!--        saucelabs.conf.json can be created under conf folder in resources to support Saucelabs execution-->
+        <!--        <parameter name="environment" value="osx_catalina_safari"/>-->
+        <classes>
+            <class name="com.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
