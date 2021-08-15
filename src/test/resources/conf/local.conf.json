@@ -1,0 +1,23 @@
+{
+  "capabilities": {
+    "build": "local",
+    "name": "local_test"
+  },
+  "configuration": {
+    "mode": "chrome"
+  },
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "ie": {
+      "browser": "ie"
+    },
+    "edge": {
+      "browser": "edge"
+    }
+  }
+}
